@@ -7,7 +7,7 @@ Created on Thu Mar  3 09:03:43 2022
 
 import numpy as np
 
-SAMPLE_COUNT    = 125
+SAMPLE_COUNT    = 100
 SAMPLE_DEPTH    = 2**16
 
 table = np.sin(2 * np.pi * np.arange(SAMPLE_COUNT) / SAMPLE_COUNT)

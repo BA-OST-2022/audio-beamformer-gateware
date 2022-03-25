@@ -62,22 +62,22 @@ module main #(
  wire [0:15] w24;
  wire w25;
  wire w26;
- wire [0:15] w28;
+ wire w28;
  wire w29;
  wire w30;
  wire w31;
  wire w32;
  wire w33;
- wire w34;
- wire [0:7] w35;
+ wire [0:7] w34;
+ wire w35;
  wire w36;
- wire w37;
- wire [0:7] w38;
+ wire [0:7] w37;
+ wire w38;
  wire w39;
  wire w40;
  wire w41;
- wire w42;
- wire [0:7] w43;
+ wire [0:7] w42;
+ wire w43;
  wire w44;
  wire w45;
  wire w46;
@@ -88,36 +88,36 @@ module main #(
  wire w51;
  wire w52;
  wire w53;
- wire w54;
- wire [0:15] w55;
+ wire [0:15] w54;
+ wire w55;
  wire w56;
  wire w57;
- wire w58;
+ wire [0:15] w58;
  wire [0:15] w59;
  wire [0:15] w60;
  wire [0:15] w61;
  wire [0:15] w62;
  wire [0:15] w63;
- wire [0:15] w64;
- wire [0:2] w65;
- wire [0:15] w66;
+ wire [0:2] w64;
+ wire [0:15] w65;
+ wire w66;
  wire w67;
  wire w68;
  wire w69;
- wire w70;
+ wire [0:15] w70;
  wire [0:15] w71;
- wire [0:15] w72;
- wire w73;
+ wire w72;
+ wire [0:15] w73;
  wire [0:15] w74;
- wire [0:15] w75;
- wire w76;
+ wire w75;
+ wire [0:15] w76;
  wire [0:15] w77;
  wire [0:15] w78;
- wire [0:15] w79;
- wire w80;
+ wire w79;
+ wire [0:15] w80;
  wire [0:15] w81;
- wire [0:15] w82;
- wire [0:7] w83;
+ wire [0:7] w82;
+ wire w83;
  wire w84;
  wire w85;
  wire w86;
@@ -126,102 +126,106 @@ module main #(
  wire w89;
  wire w90;
  wire w91;
- wire w92;
+ wire [0:15] w92;
  wire [0:15] w93;
- wire [0:15] w94;
- wire w95;
+ wire w94;
+ wire [0:15] w95;
  wire [0:15] w96;
  wire [0:15] w97;
  wire [0:15] w98;
- wire [0:15] w99;
+ wire [0:31] w99;
  wire [0:31] w100;
- wire w101;
- wire w102;
+ wire [0:15] w101;
+ wire [0:15] w102;
+ wire [0:15] w103;
+ wire w104;
+ wire w105;
+ wire w106;
  assign v0c4498 = w18;
  assign v4b62fd = w19;
- assign vbe316b = w44;
- assign va4b448 = w45;
- assign v1fa807 = w46;
- assign vdfe0e1 = w47;
- assign vfb0f46 = w48;
- assign vb07aa2 = w49;
- assign v7274c7 = w50;
- assign v399ca4 = w51;
- assign w52 = v96fd5d;
- assign w53 = v52f905;
- assign w54 = v598a58;
- assign w56 = v890c48;
- assign w57 = v648743;
- assign w58 = ve70767;
- assign w70 = v648743;
- assign w101 = vclk;
- assign w102 = vclk;
+ assign vbe316b = w43;
+ assign va4b448 = w44;
+ assign v1fa807 = w45;
+ assign vdfe0e1 = w46;
+ assign vfb0f46 = w47;
+ assign vb07aa2 = w48;
+ assign v7274c7 = w49;
+ assign v399ca4 = w50;
+ assign w51 = v96fd5d;
+ assign w52 = v52f905;
+ assign w53 = v598a58;
+ assign w55 = v890c48;
+ assign w56 = v648743;
+ assign w57 = ve70767;
+ assign w69 = v648743;
+ assign w105 = vclk;
+ assign w106 = vclk;
  assign w10 = w6;
  assign w20 = w1;
  assign w21 = w11;
  assign w26 = w25;
- assign w29 = w25;
- assign w29 = w26;
- assign w30 = w1;
- assign w30 = w20;
- assign w31 = w25;
- assign w31 = w26;
- assign w31 = w29;
+ assign w28 = w25;
+ assign w28 = w26;
+ assign w29 = w1;
+ assign w29 = w20;
+ assign w30 = w25;
+ assign w30 = w26;
+ assign w30 = w28;
+ assign w35 = w31;
  assign w36 = w32;
- assign w37 = w33;
+ assign w39 = w31;
+ assign w39 = w35;
  assign w40 = w32;
  assign w40 = w36;
- assign w41 = w33;
- assign w41 = w37;
+ assign w62 = w58;
  assign w63 = w59;
- assign w64 = w60;
- assign w70 = w57;
- assign w72 = w71;
- assign w75 = w74;
- assign w78 = w77;
- assign w79 = w61;
- assign w83 = w43;
+ assign w69 = w56;
+ assign w71 = w70;
+ assign w74 = w73;
+ assign w77 = w76;
+ assign w78 = w60;
+ assign w82 = w42;
+ assign w86 = w1;
+ assign w86 = w20;
+ assign w86 = w29;
  assign w87 = w1;
  assign w87 = w20;
- assign w87 = w30;
+ assign w87 = w29;
+ assign w87 = w86;
  assign w88 = w1;
  assign w88 = w20;
- assign w88 = w30;
+ assign w88 = w29;
+ assign w88 = w86;
  assign w88 = w87;
  assign w89 = w1;
  assign w89 = w20;
- assign w89 = w30;
+ assign w89 = w29;
+ assign w89 = w86;
  assign w89 = w87;
  assign w89 = w88;
  assign w90 = w1;
  assign w90 = w20;
- assign w90 = w30;
+ assign w90 = w29;
+ assign w90 = w86;
  assign w90 = w87;
  assign w90 = w88;
  assign w90 = w89;
  assign w91 = w1;
  assign w91 = w20;
- assign w91 = w30;
+ assign w91 = w29;
+ assign w91 = w86;
  assign w91 = w87;
  assign w91 = w88;
  assign w91 = w89;
  assign w91 = w90;
- assign w92 = w1;
- assign w92 = w20;
- assign w92 = w30;
- assign w92 = w87;
- assign w92 = w88;
- assign w92 = w89;
- assign w92 = w90;
- assign w92 = w91;
- assign w95 = w25;
- assign w95 = w26;
- assign w95 = w29;
- assign w95 = w31;
- assign w97 = w96;
+ assign w94 = w25;
+ assign w94 = w26;
+ assign w94 = w28;
+ assign w94 = w30;
+ assign w96 = w95;
+ assign w97 = w92;
  assign w98 = w93;
- assign w99 = w94;
- assign w102 = w101;
+ assign w106 = w105;
  main_v6e4b35 #(
   .N(p0)
  ) v6e4b35 (
@@ -234,7 +238,7 @@ module main #(
   .v204bed(p4)
  ) ve3c290 (
   .v3ead5b(w1),
-  .v328508(w101)
+  .v328508(w105)
  );
  v2dfa72 v3b78d3 (
   .vdb3006(w6),
@@ -264,19 +268,20 @@ module main #(
  v1f5ce5 v7981d5 (
   .v2d3366(w11),
   .ve0f053(w13),
-  .v0792df(w55),
-  .v17f43d(w97)
+  .v0792df(w54),
+  .v17f43d(w96)
  );
  v34688e #(
   .vc5c8ea(p12)
  ) v601465 (
-  .v366f99(w96)
+  .v366f99(w95)
  );
  v6a1dec v5e4ae0 (
-  .vb58dd5(w30),
-  .v6ef738(w31),
-  .v7a25d5(w98),
-  .vfa2ff3(w99)
+  .vb58dd5(w29),
+  .v6ef738(w30),
+  .v7a25d5(w97),
+  .vfa2ff3(w98),
+  .va66a4c(w99)
  );
  v34688e #(
   .vc5c8ea(p14)
@@ -284,8 +289,8 @@ module main #(
  
  );
  vf1c811 v41a1a8 (
-  .v16822b(w28),
-  .v2ebc76(w100)
+  .v2ebc76(w99),
+  .v16822b(w102)
  );
  v34688e #(
   .vc5c8ea(p16)
@@ -294,8 +299,8 @@ module main #(
  );
  v2dfa72 v24e66e (
   .v356dbf(w17),
-  .v2ba137(w82),
-  .vdb3006(w94)
+  .v2ba137(w81),
+  .vdb3006(w93)
  );
  v6bd4c0 va10b8b (
   .v3f90b8(w22),
@@ -312,163 +317,176 @@ module main #(
  );
  main_v37240a v37240a (
   .out(w24),
-  .in(w28)
+  .in(w103)
  );
  main_v27ccf5 v27ccf5 (
-  .in(w81),
-  .out(w82)
+  .in(w80),
+  .out(w81)
  );
  main_vdb28b3 #(
   .ROMFILE(p15),
   .COUNT(p27)
  ) vdb28b3 (
-  .clk_in(w29),
-  .out(w93)
+  .clk_in(w28),
+  .out(w92)
  );
  v70ff7f vd13e6d (
-  .vef4cea(w52),
-  .vc24d9f(w86),
-  .vb55943(w92)
- );
- v70ff7f v174b1b (
-  .vef4cea(w53),
+  .vef4cea(w51),
   .vc24d9f(w85),
   .vb55943(w91)
  );
- v70ff7f va9e7cd (
-  .vc24d9f(w32),
-  .vef4cea(w86),
-  .vb55943(w89)
- );
- v70ff7f v3cfba4 (
-  .vef4cea(w54),
+ v70ff7f v174b1b (
+  .vef4cea(w52),
   .vc24d9f(w84),
   .vb55943(w90)
  );
- v70ff7f ve50c91 (
-  .vc24d9f(w33),
+ v70ff7f va9e7cd (
+  .vc24d9f(w31),
   .vef4cea(w85),
   .vb55943(w88)
  );
- v70ff7f v904e52 (
-  .vc24d9f(w42),
+ v70ff7f v3cfba4 (
+  .vef4cea(w53),
+  .vc24d9f(w83),
+  .vb55943(w89)
+ );
+ v70ff7f ve50c91 (
+  .vc24d9f(w32),
   .vef4cea(w84),
   .vb55943(w87)
  );
+ v70ff7f v904e52 (
+  .vc24d9f(w41),
+  .vef4cea(w83),
+  .vb55943(w86)
+ );
  v8dd0ad v88af01 (
-  .vcb13fe(w32),
-  .vd2b237(w33),
-  .v7c48af(w34),
-  .ve13d67(w43)
+  .vcb13fe(w31),
+  .vd2b237(w32),
+  .v7c48af(w33),
+  .ve13d67(w42)
  );
  v26f57a v1c5529 (
  
  );
  v1e224f v70496d (
-  .vd34531(w35),
-  .v385b9c(w38)
+  .vd34531(w34),
+  .v385b9c(w37)
  );
  v8dd0ad v4ea3bc (
-  .v59ca29(w34),
-  .ve13d67(w35),
-  .vcb13fe(w36),
-  .vd2b237(w37),
-  .v7c48af(w39)
+  .v59ca29(w33),
+  .ve13d67(w34),
+  .vcb13fe(w35),
+  .vd2b237(w36),
+  .v7c48af(w38)
  );
  v8dd0ad v3355b3 (
-  .ve13d67(w38),
-  .v59ca29(w39),
-  .vcb13fe(w40),
-  .vd2b237(w41),
-  .v7c48af(w42)
+  .ve13d67(w37),
+  .v59ca29(w38),
+  .vcb13fe(w39),
+  .vd2b237(w40),
+  .v7c48af(w41)
  );
  vbc6704 v6fbdee (
-  .v595263(w43),
-  .v45ab8c(w44),
-  .vb85197(w45),
-  .v8f149e(w46),
-  .v7c37b3(w47),
-  .ve0c1b4(w48),
-  .v2c9812(w49),
-  .v7ada3f(w50),
-  .vc85478(w51)
+  .v595263(w42),
+  .v45ab8c(w43),
+  .vb85197(w44),
+  .v8f149e(w45),
+  .v7c37b3(w46),
+  .ve0c1b4(w47),
+  .v2c9812(w48),
+  .v7ada3f(w49),
+  .vc85478(w50)
  );
  v3571f5 vc65eaa (
-  .vdb3006(w55),
-  .v356dbf(w96)
+  .vdb3006(w54),
+  .v356dbf(w95)
  );
  v8e5461 ve05e1f (
-  .v563b03(w56),
-  .vff4755(w57),
-  .v261cbf(w58),
-  .v90f223(w61)
+  .v563b03(w55),
+  .vff4755(w56),
+  .v261cbf(w57),
+  .v90f223(w60)
  );
  v3990b8 v4523e7 (
-  .v9e1443(w59),
-  .v5b7252(w62),
-  .v9c2c2b(w67)
+  .v9e1443(w58),
+  .v5b7252(w61),
+  .v9c2c2b(w66)
  );
  v3990b8 v1c6963 (
-  .v5b7252(w59),
-  .v9e1443(w60),
-  .v9c2c2b(w68)
+  .v5b7252(w58),
+  .v9e1443(w59),
+  .v9c2c2b(w67)
  );
  v3990b8 v770c54 (
-  .v5b7252(w60),
-  .v9c2c2b(w69),
-  .v9e1443(w71)
+  .v5b7252(w59),
+  .v9c2c2b(w68),
+  .v9e1443(w70)
  );
  v481a07 v55373f (
-  .v738343(w65),
-  .v595263(w83)
+  .v738343(w64),
+  .v595263(w82)
  );
  vabdec4 vc90c9b (
-  .vd8a876(w61),
-  .v3bb07d(w62),
-  .v6b653c(w63),
-  .v777340(w64),
-  .v6e806a(w65),
-  .vc6bfd8(w66),
-  .v727789(w72),
-  .v280e01(w74),
-  .v5a666c(w77),
-  .vf02cd8(w81)
+  .vd8a876(w60),
+  .v3bb07d(w61),
+  .v6b653c(w62),
+  .v777340(w63),
+  .v6e806a(w64),
+  .vc6bfd8(w65),
+  .v727789(w71),
+  .v280e01(w73),
+  .v5a666c(w76),
+  .vf02cd8(w80)
  );
  v7f1709 v48aca3 (
-  .vbf6cae(w66)
+  .vbf6cae(w65)
  );
  main_v5dec0b v5dec0b (
-  .d0(w67),
-  .d1(w68),
-  .d2(w69),
-  .clk_in(w70),
-  .d3(w73),
-  .d4(w76),
-  .d5(w80)
+  .d0(w66),
+  .d1(w67),
+  .d2(w68),
+  .clk_in(w69),
+  .d3(w72),
+  .d4(w75),
+  .d5(w79)
  );
  v3990b8 v18b27f (
-  .v5b7252(w71),
-  .v9c2c2b(w73),
-  .v9e1443(w75)
+  .v5b7252(w70),
+  .v9c2c2b(w72),
+  .v9e1443(w74)
  );
  v3990b8 vfb1c36 (
-  .v5b7252(w74),
-  .v9c2c2b(w76),
-  .v9e1443(w78)
+  .v5b7252(w73),
+  .v9c2c2b(w75),
+  .v9e1443(w77)
  );
  v3990b8 v890d98 (
-  .v5b7252(w77),
-  .v9e1443(w79),
-  .v9c2c2b(w80)
+  .v5b7252(w76),
+  .v9e1443(w78),
+  .v9c2c2b(w79)
  );
  main_vcb9c34 vcb9c34 (
-  .clk(w102)
+  .clk(w106)
  );
  main_v45ad0f v45ad0f (
-  .b(w93),
-  .a(w94),
-  .clk_in(w95),
+  .b(w92),
+  .a(w93),
+  .clk_in(w94),
   .y(w100)
+ );
+ v1f5ce5 vf1e928 (
+  .v0792df(w101),
+  .v17f43d(w102),
+  .ve0f053(w103),
+  .v2d3366(w104)
+ );
+ vf1c811 v3cccb4 (
+  .v2ebc76(w100),
+  .v16822b(w101)
+ );
+ vc4dd08 vc6adbd (
+  .v608bd9(w104)
  );
 endmodule
 
