@@ -1491,6 +1491,18 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "fad40ff3-1bdc-446c-bb63-7e5d36446b8e",
+          "type": "c4dd08263a85a91ba53e2ae2b38de344c5efcb52",
+          "position": {
+            "x": 1968,
+            "y": 24
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -2940,6 +2952,16 @@
             "port": "in"
           },
           "size": 16
+        },
+        {
+          "source": {
+            "block": "fad40ff3-1bdc-446c-bb63-7e5d36446b8e",
+            "port": "19c8f68d-5022-487f-9ab0-f0a3cd58bead"
+          },
+          "target": {
+            "block": "5625c541-a570-4263-a1d0-0effcff040af",
+            "port": "08fac044-f451-4fb7-9668-f5bce3b40c2c"
+          }
         }
       ]
     }

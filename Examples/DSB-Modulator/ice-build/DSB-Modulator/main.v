@@ -485,7 +485,7 @@ module main #(
   .v2ebc76(w100),
   .v16822b(w101)
  );
- vc4dd08 vc6adbd (
+ vc4dd08 v2305b4 (
   .v608bd9(w104)
  );
 endmodule
